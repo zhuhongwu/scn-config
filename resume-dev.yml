@@ -1,1 +1,4 @@
-make a test
+scn:
+    msg: hahah
+mysql: 
+    url:  jdbc:mysql://localhost:3306/zhw?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
