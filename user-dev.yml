@@ -1,0 +1,15 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/scn-work?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+        username: root
+        password: Abcd!234
+    jpa:
+        hibernate:
+            ddl-auto: none
+    jpa:
+        database-platform: org.hibernate.dialect.MySQL5Dialect
+
+#spring.jpa.generate-ddl=
+    jpa:
+        show-sql: true
